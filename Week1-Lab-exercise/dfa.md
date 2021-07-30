@@ -1,4 +1,7 @@
-## DFA
+### DFA
+#### Finite Automata that accepts strings ending with same two alphabets
+
+----
 
 Acceptable strings in the language:\
 L = {"aa", "bb", "aaa", "bbb", "abb", "baa", ... "ababaa", "baababb", ...}
