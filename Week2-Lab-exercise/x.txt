@@ -1,0 +1,16 @@
+int main()
+{
+    /* program to calculate sum */
+
+    int i, len=10;
+    float sum;
+
+    for (int i=0; i<len; i++)
+        sum += i;
+
+    //
+
+    /* this is an
+     * unclosed comment
+
+}

@@ -1,0 +1,35 @@
+
+int : keyword
+main : identifier (added to symbol table)
+(
+)
+{
+int : keyword
+i : identifier (added to symbol table)
+,
+len : identifier (added to symbol table)
+10 : number
+;
+float : keyword
+sum : identifier (added to symbol table)
+;
+for : keyword
+(
+int : keyword
+i : identifier (found in symbol table)
+0 : number
+;
+i : identifier (found in symbol table)
+relational operator <
+len : identifier (found in symbol table)
+;
+i : identifier (found in symbol table)
++
++
+)
+sum : identifier (found in symbol table)
++
+i : identifier (found in symbol table)
+;
+invalid lexeme
+comment did not close
