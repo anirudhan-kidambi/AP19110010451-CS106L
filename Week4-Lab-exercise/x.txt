@@ -1,0 +1,22 @@
+int main()
+{
+    int i, len=10;
+    float avg, points, x=.25;
+    
+    // defining value of PI
+	float __pi__ = 314159E-5;
+	
+	
+    for (int i=-4; i<len; i++)
+        avg += i;
+	
+	avg /= len;
+	
+	/* Points are calculated
+	 * using this formula
+	 */
+	 
+	points = avg*x*__pi__;
+	
+	return 0;
+}

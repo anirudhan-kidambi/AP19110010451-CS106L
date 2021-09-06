@@ -1,0 +1,45 @@
+---------------------------------------------
+    Symbol 	 Token
+---------------------------------------------
+       int 	 keyword
+      main 	 identifier
+       int 	 keyword
+         i 	 identifier
+       len 	 identifier
+         = 	 assignment operator
+        10 	 integer
+     float 	 keyword
+       avg 	 identifier
+    points 	 identifier
+         x 	 identifier
+         = 	 assignment operator
+       .25 	 floating point number
+        // 	 single line comment
+     float 	 keyword
+    __pi__ 	 identifier
+         = 	 assignment operator
+ 314159E-5 	 exponential number
+       for 	 keyword
+       int 	 keyword
+         i 	 identifier
+         = 	 assignment operator
+        -4 	 integer
+         i 	 identifier
+         < 	 relational operator less than
+       len 	 identifier
+         i 	 identifier
+       avg 	 identifier
+         = 	 assignment operator
+         i 	 identifier
+       avg 	 identifier
+         = 	 assignment operator
+       len 	 identifier
+        /* 	 start of multiline comment
+        */ 	 end of multiline comment
+    points 	 identifier
+         = 	 assignment operator
+       avg 	 identifier
+         x 	 identifier
+    __pi__ 	 identifier
+    return 	 keyword
+         0 	 integer
