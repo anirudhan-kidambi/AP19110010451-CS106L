@@ -9,11 +9,11 @@ B -> bB | ε
 
 ##### Testcase 1
 
-<img src="LL(1)_1_test1.png" alt="LL(1)_1_test1" width="70%"/>
+<img src="output/LL(1)_1_test1.png" alt="LL(1)_1_test1" width="50%"/>
 
 ##### Testcase 2
 
-<img src="LL(1)_1_test2.png" alt="LL(1)_1_test2" width="70%"/>
+<img src="output/LL(1)_1_test2.png" alt="LL(1)_1_test2" width="50%"/>
 
 
 --------------------------------------
@@ -32,8 +32,8 @@ F → (E)  | d
 
 ##### Testcase 1
 
-<img src="LL(1)_2_test1.png" alt="LL(1)_2_test1" width="70%"/>
+<img src="output/LL(1)_2_test1.png" alt="LL(1)_2_test1" width="50%"/>
 
 ##### Testcase 2
 
-<img src="LL(1)_2_test2.png" alt="LL(1)_2_test2" width="70%"/>
+<img src="output/LL(1)_2_test2.png" alt="LL(1)_2_test2" width="50%"/>

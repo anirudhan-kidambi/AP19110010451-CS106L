@@ -12,23 +12,23 @@ F → (E)  | i
 
 ##### Testcase 1
 
-<img src="RDP_1_test1.png" alt="RDP_1_test1" width="70%"/>
+<img src="output/RDP_1_test1.png" alt="RDP_1_test1" width="50%"/>
 
 ##### Testcase 2
 
-<img src="RDP_1_test2.png" alt="RDP_1_test2" width="70%"/>
+<img src="output/RDP_1_test2.png" alt="RDP_1_test2" width="50%"/>
 
 ##### Testcase 3
 
-<img src="RDP_1_test3.png" alt="RDP_1_test3" width="70%"/>
+<img src="output/RDP_1_test3.png" alt="RDP_1_test3" width="50%"/>
 
 ##### Testcase 4
 
-<img src="RDP_1_test4.png" alt="RDP_1_test4" width="70%"/>
+<img src="output/RDP_1_test4.png" alt="RDP_1_test4" width="50%"/>
 
 ##### Testcase 5
 
-<img src="RDP_1_test5.png" alt="RDP_1_test5" width="70%"/>
+<img src="output/RDP_1_test5.png" alt="RDP_1_test5" width="50%"/>
 
 
 --------------------------------------
@@ -50,8 +50,8 @@ L'→ ,SL' | ε
 
 ##### Testcase 1
 
-<img src="RDP_2_test1.png" alt="RDP_2_test1" width="70%"/>
+<img src="output/RDP_2_test1.png" alt="RDP_2_test1" width="50%"/>
 
 ##### Testcase 2
 
-<img src="RDP_2_test2.png" alt="RDP_2_test2" width="70%"/>
+<img src="output/RDP_2_test2.png" alt="RDP_2_test2" width="50%"/>
