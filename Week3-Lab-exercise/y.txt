@@ -1,0 +1,3315 @@
+
+#
+ifndef : identifier
+_
+FLOAT : identifier
+_
+H : identifier
+_
+_
+_
+#
+define : identifier
+_
+FLOAT : identifier
+_
+H : identifier
+_
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+RADIX : identifier
+#
+define : identifier
+FLT : identifier
+_
+RADIX : identifier
+_
+_
+FLT : identifier
+_
+RADIX : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+DBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+LDBL : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+DIG : identifier
+#
+undef : identifier
+DBL : identifier
+_
+DIG : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT : identifier
+_
+DIG : identifier
+_
+_
+FLT : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+DIG : identifier
+_
+_
+DBL : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+DIG : identifier
+_
+_
+LDBL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+DBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+LDBL : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+DBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+LDBL : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+DBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+LDBL : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+DBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+LDBL : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MAX : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MAX : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT : identifier
+_
+MAX : identifier
+_
+_
+FLT : identifier
+_
+MAX : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MAX : identifier
+_
+_
+DBL : identifier
+_
+MAX : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MAX : identifier
+_
+_
+LDBL : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+EPSILON : identifier
+#
+undef : identifier
+DBL : identifier
+_
+EPSILON : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT : identifier
+_
+EPSILON : identifier
+_
+_
+FLT : identifier
+_
+EPSILON : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+EPSILON : identifier
+_
+_
+DBL : identifier
+_
+EPSILON : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+EPSILON : identifier
+_
+_
+LDBL : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DBL : identifier
+_
+MIN : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT : identifier
+_
+MIN : identifier
+_
+_
+FLT : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+MIN : identifier
+_
+_
+DBL : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+MIN : identifier
+_
+_
+LDBL : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+ROUNDS : identifier
+#
+define : identifier
+FLT : identifier
+_
+ROUNDS : identifier
+1 : number
+#
+if : keyword
+(
+defined : identifier
+(
+_
+_
+STDC : identifier
+_
+VERSION : identifier
+_
+_
+)
+&
+&
+_
+_
+STDC : identifier
+_
+VERSION : identifier
+_
+_
+relational operator >=
+199901 : number
+L : identifier
+)
+\
+|
+|
+(
+defined : identifier
+(
+_
+_
+cplusplus : identifier
+)
+&
+&
+_
+_
+cplusplus : identifier
+relational operator >=
+201103 : number
+L : identifier
+)
+#
+undef : identifier
+FLT : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+#
+ifdef : identifier
+_
+_
+STDC : identifier
+_
+WANT : identifier
+_
+IEC : identifier
+_
+60559 : number
+_
+TYPES : identifier
+_
+EXT : identifier
+_
+_
+#
+define : identifier
+FLT : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+_
+FLT : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+TS : identifier
+_
+18661 : number
+_
+3 : number
+_
+_
+#
+else : keyword
+#
+define : identifier
+FLT : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+_
+FLT : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+_
+#
+endif : identifier
+#
+undef : identifier
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+endif : identifier
+#
+if : keyword
+(
+defined : identifier
+(
+_
+_
+STDC : identifier
+_
+VERSION : identifier
+_
+_
+)
+&
+&
+_
+_
+STDC : identifier
+_
+VERSION : identifier
+_
+_
+relational operator >=
+201112 : number
+L : identifier
+)
+\
+|
+|
+(
+defined : identifier
+(
+_
+_
+cplusplus : identifier
+)
+&
+&
+_
+_
+cplusplus : identifier
+relational operator >=
+201703 : number
+L : identifier
+)
+#
+undef : identifier
+FLT : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+undef : identifier
+DBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+DBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+LDBL : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+#
+undef : identifier
+DBL : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+#
+define : identifier
+FLT : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+_
+_
+FLT : identifier
+_
+HAS : identifier
+_
+DENORM : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+_
+_
+DBL : identifier
+_
+HAS : identifier
+_
+DENORM : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+HAS : identifier
+_
+SUBNORM : identifier
+_
+_
+LDBL : identifier
+_
+HAS : identifier
+_
+DENORM : identifier
+_
+_
+#
+undef : identifier
+FLT : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DBL : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+undef : identifier
+LDBL : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DBL : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+DBL : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+LDBL : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+LDBL : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+STDC : identifier
+_
+WANT : identifier
+_
+IEC : identifier
+_
+60559 : number
+_
+BFP : identifier
+_
+EXT : identifier
+_
+_
+#
+define : identifier
+CR : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+UINTMAX : identifier
+_
+MAX : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+STDC : identifier
+_
+WANT : identifier
+_
+IEC : identifier
+_
+60559 : number
+_
+TYPES : identifier
+_
+EXT : identifier
+_
+_
+#
+ifdef : identifier
+_
+_
+FLT16 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT16 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+DIG : identifier
+_
+_
+FLT16 : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT16 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT16 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT16 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT16 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MAX : identifier
+_
+_
+FLT16 : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+EPSILON : identifier
+_
+_
+FLT16 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+MIN : identifier
+_
+_
+FLT16 : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT16 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT16 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT16 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT16 : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+DIG : identifier
+_
+_
+FLT32 : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT32 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT32 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MAX : identifier
+_
+_
+FLT32 : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+EPSILON : identifier
+_
+_
+FLT32 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+MIN : identifier
+_
+_
+FLT32 : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT32 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT32 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT32 : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+DIG : identifier
+_
+_
+FLT64 : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT64 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT64 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MAX : identifier
+_
+_
+FLT64 : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+EPSILON : identifier
+_
+_
+FLT64 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+MIN : identifier
+_
+_
+FLT64 : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT64 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT64 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT64 : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+DIG : identifier
+_
+_
+FLT128 : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT128 : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT128 : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MAX : identifier
+_
+_
+FLT128 : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+EPSILON : identifier
+_
+_
+FLT128 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+MIN : identifier
+_
+_
+FLT128 : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT128 : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT128 : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT128 : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT32X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT32X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+DIG : identifier
+_
+_
+FLT32X : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT32X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT32X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT32X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT32X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MAX : identifier
+_
+_
+FLT32X : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+EPSILON : identifier
+_
+_
+FLT32X : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+MIN : identifier
+_
+_
+FLT32X : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT32X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT32X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT32X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT32X : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT64X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT64X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+DIG : identifier
+_
+_
+FLT64X : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT64X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT64X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT64X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT64X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MAX : identifier
+_
+_
+FLT64X : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+EPSILON : identifier
+_
+_
+FLT64X : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+MIN : identifier
+_
+_
+FLT64X : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT64X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT64X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT64X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT64X : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+FLT128X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+FLT128X : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+DIG : identifier
+_
+_
+FLT128X : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+FLT128X : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT128X : identifier
+_
+MIN : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+FLT128X : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+FLT128X : identifier
+_
+MAX : identifier
+_
+10 : number
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MAX : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MAX : identifier
+_
+_
+FLT128X : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+EPSILON : identifier
+_
+_
+FLT128X : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+MIN : identifier
+_
+_
+FLT128X : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+FLT128X : identifier
+_
+DECIMAL : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+FLT128X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+#
+define : identifier
+FLT128X : identifier
+_
+TRUE : identifier
+_
+MIN : identifier
+_
+_
+FLT128X : identifier
+_
+DENORM : identifier
+_
+MIN : identifier
+_
+_
+#
+endif : identifier
+#
+endif : identifier
+#
+ifdef : identifier
+_
+_
+STDC : identifier
+_
+WANT : identifier
+_
+DEC : identifier
+_
+FP : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+DEC32 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+DEC64 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+DEC128 : identifier
+_
+MANT : identifier
+_
+DIG : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+DEC32 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+DEC64 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+DEC128 : identifier
+_
+MIN : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+DEC32 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+DEC64 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+DEC128 : identifier
+_
+MAX : identifier
+_
+EXP : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+MAX : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+MAX : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+MAX : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+MAX : identifier
+_
+_
+DEC32 : identifier
+_
+MAX : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+MAX : identifier
+_
+_
+DEC64 : identifier
+_
+MAX : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+MAX : identifier
+_
+_
+DEC128 : identifier
+_
+MAX : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+EPSILON : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+EPSILON : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+EPSILON : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+EPSILON : identifier
+_
+_
+DEC32 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+EPSILON : identifier
+_
+_
+DEC64 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+EPSILON : identifier
+_
+_
+DEC128 : identifier
+_
+EPSILON : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+MIN : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+MIN : identifier
+_
+_
+DEC32 : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+MIN : identifier
+_
+_
+DEC64 : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+MIN : identifier
+_
+_
+DEC128 : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+DEC32 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DEC64 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+#
+undef : identifier
+DEC128 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+#
+define : identifier
+DEC32 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+DEC32 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DEC64 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+DEC64 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+#
+define : identifier
+DEC128 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+DEC128 : identifier
+_
+SUBNORMAL : identifier
+_
+MIN : identifier
+_
+_
+#
+undef : identifier
+DEC : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+#
+define : identifier
+DEC : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+_
+DEC : identifier
+_
+EVAL : identifier
+_
+METHOD : identifier
+_
+_
+#
+endif : identifier
+#
+endif : identifier
